@@ -10,7 +10,7 @@ Install Node.js 24, then use `npm ci` and `npm run dev`. To verify the productio
 
 ## Set up GitHub Pages
 
-In this repo, open Settings → Pages and set Source to GitHub Actions. The deploy job reports the deployed URL when it succeeds. APEX uses hash routes so direct links work on a project site.
+In this repo, open Settings → Pages and set Source to GitHub Actions. Verify the site has a separate hostname before setting the repository Actions variable APEX_PAGES_ENABLED to true. The deploy job reports the deployed URL when it succeeds. APEX uses hash routes so direct links work on a project site.
 
 ## Connect a separate Supabase project
 
